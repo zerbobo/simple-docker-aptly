@@ -19,7 +19,7 @@ docker pull zerbobo/simple-docker-aptly:latest
 下载源码后，直接使用docker指令构建：
 
 ```
-git clone https://github.com/zerbobo/simple-docker-aptly
+git clone https://github.com/zerbobo/simple-docker-aptly.git
 cd simple-docker-aptly
 docker build . -t zerbobo/simple-docker-aptly:latest
 ```
